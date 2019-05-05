@@ -5,7 +5,6 @@ class Terrastate < Formula
     desc "Tool to manage multiple state backends in Terraform - Allows Multi account setups"
     url "https://github.com/janritter/terrastate/releases/download/{{ version }}/darwin_amd64_terrastate"
     sha256 "{{ sha256 }}"
-    version {{ version }}
   
     def install
       bin.install "darwin_amd64_terrastate"
