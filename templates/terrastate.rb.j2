@@ -6,9 +6,11 @@ class Terrastate < Formula
     if OS.mac?
       url "https://github.com/janritter/terrastate/releases/download/{{ version }}/darwin_amd64_terrastate"
       sha256 "{{ sha256Mac }}"
+      version "{{ version }}"
     elsif OS.linux?
       url "https://github.com/janritter/terrastate/releases/download/{{ version }}/linux_amd64_terrastate"
       sha256 "{{ sha256Linux }}"
+      version "{{ version }}"
     end
 
     def install
