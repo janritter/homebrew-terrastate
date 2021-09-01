@@ -5,11 +5,11 @@ class Terrastate < Formula
     desc "Tool to manage multiple state backends in Terraform - Allows Multi account setups"
     if OS.mac?
       url "https://github.com/janritter/terrastate/releases/download/1.9.0/darwin_amd64_terrastate"
-      sha256 "784c331b24c3ce0c251f53ea1caddbc32d1f9b53165b45000452325d0dc29333"
+      sha256 "fcc4643f3a149db91b145af435af8dff4d8e43cdb00e8de1931d39dc86c5927b"
       version "1.9.0"
     elsif OS.linux?
       url "https://github.com/janritter/terrastate/releases/download/1.9.0/linux_amd64_terrastate"
-      sha256 "64ed8d079f4cab12776dc470d11a45a4c16c42eed9ca1be0177791775d17cfa7"
+      sha256 "1d2dc981b0608e92e08ff4d04b0b5128d6196938f8b59d84b941a6c2b0246b36"
       version "1.9.0"
     end
 
